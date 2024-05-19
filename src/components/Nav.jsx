@@ -28,8 +28,6 @@ function Nav() {
   const navRef = useRef(null);
   const location = useLocation();
 
-  console.log(location.pathname);
-
   return (
     <>
       <nav
