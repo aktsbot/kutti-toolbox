@@ -46,6 +46,7 @@ function JSONPage() {
             value={outputStr}
             className="monospace"
             placeholder={`{\n  "a": "b"\n}`}
+            readOnly
           />
         </div>
       </div>

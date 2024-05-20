@@ -34,7 +34,7 @@ function UUIDPage() {
 
       <textarea
         rows="30"
-        disabled
+        readOnly
         value={uuids.join("\n")}
         className="monospace"
       />
