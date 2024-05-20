@@ -30,6 +30,7 @@ function JSONPage() {
             }}
             value={inputStr}
             className="monospace"
+            placeholder={`{"a": "b"}`}
           />
         </div>
 
@@ -40,7 +41,12 @@ function JSONPage() {
         </div>
 
         <div className="col c5">
-          <textarea rows="30" value={outputStr} className="monospace" />
+          <textarea
+            rows="30"
+            value={outputStr}
+            className="monospace"
+            placeholder={`{\n  "a": "b"\n}`}
+          />
         </div>
       </div>
     </Page>
